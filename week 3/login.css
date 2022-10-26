@@ -1,0 +1,16 @@
+*{
+    background: orangered;
+}
+label, input{
+    display: block;
+    width: 500px;
+}
+form{
+    padding-bottom: 15px;
+}
+.ye{
+    display: flex;
+    justify-content: center;
+}
+h2{color: brown;
+}

@@ -1,0 +1,63 @@
+*{
+    /* background: hsl(0, 0%, 95%); */
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend", Deca ;
+    font-size: 15px;
+    font-weight: 400;
+}
+.box{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#first{
+    background: hsl(31, 77%, 52%);
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#second{
+    padding: 30px;
+    background: hsl(184, 100%, 22%);
+}
+#third{
+    padding: 30px;
+    background: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+button{
+    margin-top: 50px;
+    color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 15px;
+}
+.button1:hover{
+    background: hsl(31, 77%, 52%);
+    color: black;
+    border: 2px solid black;
+}
+.button2:hover{
+    background: hsl(184, 100%, 22%);
+    color: black;
+    border: 2px solid black;
+}
+.button3:hover{
+    background:  hsl(179, 100%, 13%);
+    color: black;
+    border: 2px solid black;
+}
+#f{
+    color: hsl(31, 77%, 52%);
+}
+#s{
+    color: hsl(184, 100%, 22%);
+}
+#t{
+    color: hsl(179, 100%, 13%);
+}
+h2{
+    font-size: 25px;
+}

@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    line-height: 20px;
+    list-style: none;
+    background-color: black;
+    color: white;
+}
+.nav-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 25px;
+    margin-bottom: 20px;
+}
+
+.nav-bar-left{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    padding-right: 35px;
+}
+.nav-bar-left li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.nav-bar-left li {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.nav-bar-right {
+    color: white;
+    padding-top:2px;
+    padding-left:20px;
+    
+}
+.nav-bar-right span{
+    color: orangered;
+}
+.image, img{
+   width: 380px;
+   height: 80vh;
+   padding-left: 10px;
+   
+}
+.zuri{
+    display: flex;
+
+}
+.v {
+    padding-left:50px ;
+    margin-top: 100px;
+}
+
+.name h1{
+    font-size: 30px;
+}
+.about{
+    margin-top: 30px;
+}
+.about h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: orange;
+}
+.about p{
+    font-size: 15px;
+    color: rgb(148, 139, 126);
+    line-height: 25px;
+    padding-left: 10%;
+    padding-right:10%;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 60px;
+}
+.project h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: orange;
+}
+.project p{
+    font-size: 15px;
+    color: rgb(148, 139, 126);
+    line-height: 25px;
+    padding-left: 10%;
+    padding-right:10%;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 60px;
+}
+.services h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: orange;
+}
+.services p{
+    font-size: 15px;
+    color: rgb(148, 139, 126);
+    line-height: 25px;
+    padding-left: 10%;
+    padding-right:10%;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 60px;
+}
+.hobbies h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgba(255, 166, 0, 0.575);
+}
+.hobbies p{
+    font-size: 15px;
+    color:  rgba(148, 139, 126, 0.658);
+    line-height: 25px;
+    padding-left: 10%;
+    padding-right:10%;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 60px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.info h4{
+    color: rgba(165, 42, 42, 0.705);
+}
+.black{
+    background-color: rgb(20, 19, 19);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.black li{
+    list-style: none;
+    color: orange;
+    padding: 4px;
+
+}
+hr{
+    border: 1px solid rgb(68, 68, 68);
+    margin-top: 10px;
+}
+#p2{ 
+    
+    color: orange;
+
+}
+#p3{ 
+   color: orange;
+}

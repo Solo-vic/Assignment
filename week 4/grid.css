@@ -1,0 +1,26 @@
+body{
+    background: black;
+}
+.one{grid-area: one;}
+.two{grid-area: two;}
+.three{grid-area: three;}
+.four{grid-area: four;}
+.five{grid-area: five;}
+
+.container{
+    display: grid;
+    grid-template-areas: ' one one one two two'
+    ' three three four four four'
+    'three three five five five';
+    gap: 10px;
+    padding: 10px;
+}
+.one{
+    background-color: red;
+}
+.two{background: yellow;}
+.three{
+    background: green;
+}
+.four{background: blue;}
+.five{ background: skyblue;}
